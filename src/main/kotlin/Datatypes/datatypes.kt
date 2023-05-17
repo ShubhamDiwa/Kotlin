@@ -1,6 +1,7 @@
 package Datatypes
 
 fun main() {
+/*
 //    val  myNum=5
 //    val myDouble=15.223
 //    val Boolean=true
@@ -37,4 +38,19 @@ fun main() {
 
     val myGrade: Char = 'B'
     println(myGrade)// character store single values of character
+*/
+
+    var items1 = arrayListOf<String>("shubham","Deep","Amit")
+    val items2 = arrayListOf<String>("shubham","Abhisekh ")
+    items1 = items2// address of arrays are equal not the values
+    //items1 = arrayListOf()
+   items1.removeAt(0)
+    for(i in items2)
+        println(i)
+
+    /*items.add("Dev")
+    items.removeAt(0)
+    for ( i in items )
+        println(i)*/
+
 }
