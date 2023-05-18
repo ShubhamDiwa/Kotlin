@@ -9,7 +9,8 @@ open class `Base()` {
 }
 
 class Derived : `Base()`() {
-
+    override val c: Int
+        get() = super.c
 
     internal var abh= 10
 }

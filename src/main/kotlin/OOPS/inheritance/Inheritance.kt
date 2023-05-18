@@ -1,6 +1,4 @@
-package OOPS
-
-import visibilityModifiers.public
+package OOPS.inheritance
 
 open class Inheritance  {
     val name ="GeeksForGeeks"
@@ -10,7 +8,7 @@ open class Inheritance  {
     }
 
 }
-class DerivedClass:Inheritance(){
+class DerivedClass: Inheritance(){
     fun B(){
         println(name)           //inherit name property
         println("Derived class")
@@ -18,7 +16,7 @@ class DerivedClass:Inheritance(){
 }
 
 fun main() {
-    val der=DerivedClass()
+    val der= DerivedClass()
     der.B()
     der.A()
     der.name
