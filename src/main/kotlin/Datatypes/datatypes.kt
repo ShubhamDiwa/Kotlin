@@ -1,7 +1,7 @@
 package Datatypes
 
 fun main() {
-/*
+
 //    val  myNum=5
 //    val myDouble=15.223
 //    val Boolean=true
@@ -38,7 +38,7 @@ fun main() {
 
     val myGrade: Char = 'B'
     println(myGrade)// character store single values of character
-*/
+
 
     var items1 = arrayListOf<String>("shubham","Deep","Amit")
     val items2 = arrayListOf<String>("shubham","Abhisekh ")
